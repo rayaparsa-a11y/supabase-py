@@ -80,6 +80,34 @@ A short troubleshooting block could help new contributors recover from common se
 - **Async function never runs** — async functions need to be awaited inside an event loop (e.g., `asyncio.run(...)`).
 
 ---
+---
+
+## 4. Recommended Beginner Path
+
+**Suggested onboarding order for first-time contributors:**
+
+1. Read the main `README.md` setup instructions
+2. Create and activate the Python virtual environment
+3. Run `uv sync` to install dependencies
+4. Review the basic sync client example before exploring async functionality
+5. Read the `CONTRIBUTING.md` guide
+6. Review the v3.0 tracking issue for beginner-accessible documentation areas
+
+This short sequence could help reduce confusion for newer contributors by giving them a more structured onboarding flow instead of requiring them to navigate the repository entirely on their own.
+
+---
+
+## Suggested Placement Details
+
+- Virtual environment clarification:
+  - Could be added directly above the existing `uv venv supabase-py` setup commands in `README.md`
+
+- Sync vs async clarification:
+  - Could fit underneath the first usage example in the `README.md` Usage section
+
+- Common beginner errors:
+  - Could fit near the end of `CONTRIBUTING.md`
+  - Alternatively, a separate `docs/troubleshooting.md` page could be linked from the onboarding/setup sections
 
 ## Next Steps
 
