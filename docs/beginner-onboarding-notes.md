@@ -80,7 +80,6 @@ A short troubleshooting block could help new contributors recover from common se
 - **Async function never runs** — async functions need to be awaited inside an event loop (e.g., `asyncio.run(...)`).
 
 ---
----
 
 ## 4. Recommended Beginner Path
 
